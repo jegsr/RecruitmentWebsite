@@ -1,0 +1,461 @@
+@media screen and (min-width: 470px){
+body{
+    color: white;
+    margin: auto;
+    background-image: url(../Images/background.jpg);
+}
+#cabecalho{
+    text-align: center;
+    border-bottom:green solid 2px;
+    background: rgba(76, 175, 80, 0.3);
+}
+
+#cabecalho>img{
+    width: 250px;
+}
+#cabecalho>h1{
+    display: inline-block;
+    font-size: 50px;
+}
+
+#menu{
+    width: 300px;
+    min-width: 50px;
+    height: 600px;
+    min-height: 400px;
+    float: left;
+}
+
+#menu>ul{
+    padding-top: 50%;
+}
+
+#menu>ul>li{
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 10px;
+    padding-left: 25px;
+    list-style: none;
+    background: rgba(76, 175, 80, 0.8);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#menu>ul>li:hover,#navegacaoSegundaria>ul>li:hover{
+    box-shadow: 2px 2px 15px darkseagreen ;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+
+}
+
+#menu>ul>li>a,#navegacaoSegundaria>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+#rodape{
+    color: black;
+    clear: both;
+    border-top: green solid 2px; 
+    font-family: serif;
+}
+#rodape>p{
+    font-size: 13px;
+    text-align: left;
+    float: right;
+    clear: both;
+    text-align: left;
+    width: 260px;
+}
+
+
+#LoginAction{
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(76, 175, 80, 0.8);
+    text-align: center;
+    width: 200px;
+    min-width: 595px;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+#LoginAction>form>fieldset{
+    border: none;
+}
+
+#LoginAction>form>fieldset>label{
+    float: left;
+    box-sizing: border-box;
+}
+
+#LoginAction>form>fieldset>input{
+    float: right;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+
+
+#LoginAction>form>input,#criarOferta>form>input,#criarOferta>form>button,#pesquisa>input[type="submit"],#candidatos>article>button,#ofertasEmprego>article>button
+,#registar>form>input{
+    background-color: darkorchid;
+    color: white;
+    font-style: inherit;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+
+}
+#LoginAction>form>input[type="submit"]:hover,#criarOferta>form>input:hover,#criarOferta>form>button:hover,#pesquisa>input[type="submit"]:hover
+,#candidatos>article>button:hover,#ofertasEmprego>article>button:hover,#registar>form>input:hover{
+    box-shadow: 4px 4px 15px darkorchid ;
+    opacity: 0.75;
+    filter: alpha(opacity=75);  
+}
+
+#login,#registo{
+    margin-left: 30px;
+}
+
+#criarOferta>ul,#pesquisa>ul{
+    padding-left: 50px;
+}
+#criarOferta>ul>li,#pesquisa>ul>li{
+    margin-top: 5px;
+    color: red;
+    text-align: left;
+    list-style: circle;
+}
+
+#criarOferta,#pesquisa,#ofertasEmprego>article,#registar,#ofertasEmprego>h1{
+    text-align: center;
+    background: rgba(76, 175, 80, 0.8);
+    width: 600px;
+    min-width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#criarOferta>form>fieldset,#pesquisa>fieldset,#ofertasEmprego>article>fieldset,#registar>form>fieldset,#cp{
+    text-align: right;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    margin-top: 15px;
+}
+
+#ofertasEmprego>article>fieldset>legend,#morada>legend{
+    text-align: center;
+}
+
+#criarOferta>form>fieldset>label,#pesquisa>fieldset>label,#ofertasEmprego>article>fieldset>h1,#morada>h1,#candidatos>article>h1,
+#registar>form>fieldset>label,#morada>label,#cp>label{
+    width: 160px;
+    margin-top: 15px;
+    clear: both;
+    float: left;
+
+}
+
+#criarOferta>form>fieldset>input:not([type="radio"]),#criarOferta>form>fieldset>textarea,#criarOferta>form>fieldset>select,
+#pesquisa>fieldset>input:not([type="radio"]),#pesquisa>fieldset>select,#ofertasEmprego>article>fieldset>h3,#morada>h3,#candidatos>article>h3
+,#registar>form>fieldset>input:not([type="radio"]),#registar>form>fieldset>select,#morada>input{
+    width: 300px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    float: right;
+}
+#criarOferta>form>fieldset>textarea{
+    max-width: 300px;
+    max-height: 150px;
+}
+
+#criarOferta>form>#tipohorario>input[type="radio"],#pesquisa>#tipo>input[type="radio"],#registar>form>#tipo>input[type="radio"]{
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#criarOferta>form>#tipohorario>p,#pesquisa>#tipo>p,#registar>form>#tipo>p{
+    padding-right: 30px;
+    display: inline;
+}
+
+#pesquisa{
+    width: 650px;
+}
+#ofertasEmprego>article>fieldset>h3,#morada>h3,#candidatos>article>h3{
+    text-align: left;
+}
+
+#navegacaoSegundaria{
+    float: top;
+    width: 100%;
+}
+
+#navegacaoSegundaria>ul>li{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px 5px 5px 5px;
+    list-style: none;
+    background: rgba(76, 175, 80, 0.8);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline;
+    
+}
+#cp>label{
+    width: 105px;
+}
+#cp>input,#cp>p{
+    display: inline-block;
+    float: right;
+}
+#cp>input{
+    width: 122px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    
+}
+#morada{
+    border: none;
+}
+
+#morada>h3{
+    padding-left: 10px;
+}
+}
+
+@media screen and (max-width: 470px){
+    body{
+    color: white;
+    margin: auto;
+    background-image: url(../Images/background.jpg);
+}
+#cabecalho{
+    text-align: center;
+    border-bottom:green solid 2px;
+    background: rgba(76, 175, 80, 0.3);
+}
+
+#cabecalho>img{
+    width: 250px;
+}
+#cabecalho>h1{
+    display: inline-block;
+    font-size: 50px;
+}
+
+#menu{
+    width: 200px;
+    min-width: 20px;
+    height: 300px;
+    min-height: 100px;
+    float: left;
+}
+
+#menu>ul{
+    padding-top: 50%;
+}
+
+#menu>ul>li{
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    padding-top: 10px;
+    padding-left: 25px;
+    list-style: none;
+    background: rgba(76, 175, 80, 0.8);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#menu>ul>li:hover,#navegacaoSegundaria>ul>li:hover{
+    box-shadow: 2px 2px 15px darkseagreen ;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+
+}
+
+#menu>ul>li>a,#navegacaoSegundaria>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+#rodape{
+    color: black;
+    clear: both;
+    border-top: green solid 2px; 
+    font-family: serif;
+}
+#rodape>p{
+    font-size: 13px;
+    text-align: left;
+    float: right;
+    clear: both;
+    text-align: left;
+    width: 160px;
+}
+
+
+#LoginAction{
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    background: rgba(76, 175, 80, 0.8);
+    text-align: center;
+    width: 200px;
+    min-width: 60px;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+#LoginAction>form>fieldset{
+    border: none;
+}
+
+#LoginAction>form>fieldset>label{
+    float: left;
+    box-sizing: border-box;
+}
+
+#LoginAction>form>fieldset>input{
+    float: right;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+
+
+#LoginAction>form>input,#criarOferta>form>input,#criarOferta>form>button,#pesquisa>input[type="submit"],#candidatos>article>button,#ofertasEmprego>article>button
+,#registar>form>input{
+    background-color: darkorchid;
+    color: white;
+    font-style: inherit;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100px;
+
+}
+#LoginAction>form>input[type="submit"]:hover,#criarOferta>form>input:hover,#criarOferta>form>button:hover,#pesquisa>input[type="submit"]:hover
+,#candidatos>article>button:hover,#ofertasEmprego>article>button:hover,#registar>form>input:hover{
+    box-shadow: 4px 4px 15px darkorchid ;
+    opacity: 0.75;
+    filter: alpha(opacity=75);  
+}
+
+#login,#registo{
+    margin-left: 30px;
+}
+
+#criarOferta>ul,#pesquisa>ul{
+    padding-left: 50px;
+}
+#criarOferta>ul>li,#pesquisa>ul>li{
+    margin-top: 5px;
+    color: red;
+    text-align: left;
+    list-style: circle;
+}
+
+#criarOferta,#pesquisa,#ofertasEmprego>article,#registar,#ofertasEmprego>h1{
+    text-align: center;
+    background: rgba(76, 175, 80, 0.8);
+    width: 200px;
+    min-width: 200px;
+    border-radius: 10px 10px 10px 10px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#criarOferta>form>fieldset,#pesquisa>fieldset,#ofertasEmprego>article>fieldset,#registar>form>fieldset,#cp{
+    text-align: right;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    margin-top: 15px;
+}
+
+#ofertasEmprego>article>fieldset>legend,#morada>legend{
+    text-align: center;
+}
+
+#criarOferta>form>fieldset>label,#pesquisa>fieldset>label,#ofertasEmprego>article>fieldset>h1,#morada>h1,#candidatos>article>h1,
+#registar>form>fieldset>label,#morada>label,#cp>label{
+    width: 120px;
+    margin-top: 15px;
+    clear: both;
+    float: left;
+
+}
+
+#criarOferta>form>fieldset>input:not([type="radio"]),#criarOferta>form>fieldset>textarea,#criarOferta>form>fieldset>select,
+#pesquisa>fieldset>input:not([type="radio"]),#pesquisa>fieldset>select,#ofertasEmprego>article>fieldset>h3,#morada>h3,#candidatos>article>h3
+,#registar>form>fieldset>input:not([type="radio"]),#registar>form>fieldset>select,#morada>input{
+    width: 200px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    float: right;
+}
+#criarOferta>form>fieldset>textarea{
+    max-width: 200px;
+    max-height: 150px;
+}
+
+#criarOferta>form>#tipohorario>input[type="radio"],#pesquisa>#tipo>input[type="radio"],#registar>form>#tipo>input[type="radio"]{
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#criarOferta>form>#tipohorario>p,#pesquisa>#tipo>p,#registar>form>#tipo>p{
+    padding-right: 30px;
+    display: inline;
+}
+
+#pesquisa{
+    width: 200px;
+}
+#ofertasEmprego>article>fieldset>h3,#morada>h3,#candidatos>article>h3{
+    text-align: left;
+}
+
+#navegacaoSegundaria{
+    float: top;
+    width: 100%;
+}
+
+#navegacaoSegundaria>ul>li{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px 5px 5px 5px;
+    list-style: none;
+    background: rgba(76, 175, 80, 0.8);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline;
+    
+}
+#cp>label{
+    width: 105px;
+}
+#cp>input,#cp>p{
+    display: inline-block;
+    float: right;
+}
+#cp>input{
+    width: 122px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    
+}
+#morada{
+    border: none;
+}
+
+#morada>h3{
+    padding-left: 10px;
+}
+}
